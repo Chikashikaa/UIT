@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Бачите перед собою дивовижний калькулятор на одну дію!\n"+
+        System.out.println("Бачите перед собою калькулятор на одну дію!\n"+
                 "Оберіть, що ви хочете зробити зі своїми числами:\n"+
                 "   1. Додати\n   2. Відняти\n   3. Помножити\n   4. Поділити");
         Scanner scanner = new Scanner(System.in);
