@@ -14,7 +14,7 @@ public class Main {
                     "Я не можу працювати в таких умовах!");
             System.exit(1);
         }
-        System.out.println("Супер, тепер введи два числа. Розділи їх кнопкою Enter.\n"+
+        System.out.println("Супер, тепер введи числа. Розділи їх кнопкою Enter.\n"+
                 "Я серйозно, інакше магія не спрацює");
         float first = scanner.nextFloat();
         float second = scanner.nextFloat();
