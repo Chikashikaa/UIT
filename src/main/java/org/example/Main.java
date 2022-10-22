@@ -35,5 +35,9 @@ public class Main {
                 break;
         }
     }
+    public static float Add (float a, float b) {
+        float n = a + b;
+        return n;
+    }
 
 }
