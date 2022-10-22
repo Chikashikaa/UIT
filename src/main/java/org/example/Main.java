@@ -39,5 +39,9 @@ public class Main {
         float n = a + b;
         return n;
     }
+    public static float Divide (float a, float b) {
+        float n = a / b;
+        return n;
+    }
 
 }
