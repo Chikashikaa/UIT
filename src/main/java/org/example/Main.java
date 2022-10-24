@@ -13,7 +13,7 @@ public class Main {
             System.out.println("Дія не обрана");
             System.exit(1);
         }
-        System.out.println("Введіть числа, розділюючи кнопкою Enter.");
+        System.out.println("Введіть числа, через кнопкою Enter.");
         float first = scanner.nextFloat();
         float second = scanner.nextFloat();
 

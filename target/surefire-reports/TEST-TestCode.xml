@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="TestCode" time="0.004" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="TestCode" time="0.005" errors="0" skipped="0">
   <properties>
+    <property name="jansi.mode" value="strip"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
@@ -43,7 +44,7 @@
     <property name="java.class.path" value="D:\Programs\Apache Maven 3.8.6\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="17"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -ntp clean install"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,6 +64,6 @@
   </properties>
   <testcase classname="TestCode" name="testAdd" time="0.004"/>
   <testcase classname="TestCode" name="testSubtract" time="0"/>
-  <testcase classname="TestCode" name="testDivide" time="0"/>
+  <testcase classname="TestCode" name="testDivide" time="0.001"/>
   <testcase classname="TestCode" name="testMultiply" time="0"/>
 </testsuite>
